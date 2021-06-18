@@ -1,3 +1,6 @@
+// LynxDigital Workspace
+
+
 // Declaring Pins
 const int buzzerPin = 5;
 const int ledPin = 6;
