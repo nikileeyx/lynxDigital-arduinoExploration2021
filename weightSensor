@@ -69,3 +69,4 @@ digitalWrite(buzzer,HIGH);
 delay(50);     
 }
 
+#Sources: https://create.arduino.cc/projecthub/embeddedlab786/arduino-based-digital-weight-scale-475032
