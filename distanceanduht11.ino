@@ -30,6 +30,8 @@ void loop()
 {
   Serial.println();
 
+  
+  // DHT11 SENSOR PART - Clears the trigPin condition
   int chk = DHT11.read(DHT11PIN);
 
   Serial.print("Humidity (%): ");
@@ -41,11 +43,11 @@ void loop()
   
   // reads the input on analog pin A0 (value between 0 and 1023)
   int analogValue = analogRead(A0);
-
   Serial.print("Analog reading =  ");
   Serial.println(analogValue);   // the raw analog reading
   
-  // Clears the trigPin condition
+
+  // DISTANCE SENSOR PART - Clears the trigPin condition
   digitalWrite(trigPin, LOW);
   
   delayMicroseconds(2);
