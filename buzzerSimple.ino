@@ -7,6 +7,7 @@ const int ledPin = 6;
 const int motionPin = 7;
 const int buttonPin = 12;
 
+
 // Setting Buzzer mode to False
 boolean buzzer_mode = false;
 
